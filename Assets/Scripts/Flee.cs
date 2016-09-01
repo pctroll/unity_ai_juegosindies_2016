@@ -16,7 +16,7 @@ public class Flee : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (ReferenceEquals(target, null))
+        if (target == null)
             return;
         velocity = transform.position - target.transform.position;
         velocity.Normalize();

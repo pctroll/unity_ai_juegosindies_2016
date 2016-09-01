@@ -18,7 +18,7 @@ public class Escape : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (ReferenceEquals(target, null))
+        if (target == null)
             return;
         distance = Vector3.Distance(target.transform.position, transform.position);
         if (distance >= safeRadius)

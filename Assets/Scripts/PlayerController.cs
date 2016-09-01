@@ -4,21 +4,26 @@ using System.Collections;
 public class PlayerController : MonoBehaviour
 {
     public float speed = 5f;
-    private Vector3 velocity;
+    private Vector3 _velocity;
+
+    public Vector3 velocity
+    {
+        get { return _velocity; }
+    }
 
     // Use this for initialization
     void Start()
     {
-        velocity = Vector3.zero;
+        _velocity = Vector3.zero;
     }
 
     // Update is called once per frame
     void Update()
     {
-        velocity.x = Input.GetAxis("Horizontal");
-        velocity.z = Input.GetAxis("Vertical");
-        velocity.y = 0f;
-        velocity.Normalize();
-        transform.Translate(velocity * speed * Time.deltaTime, Space.World);
+        _velocity.x = Input.GetAxis("Horizontal");
+        _velocity.z = Input.GetAxis("Vertical");
+        _velocity.y = 0f;
+        _velocity.Normalize();
+        transform.Translate(_velocity * speed * Time.deltaTime, Space.World);
     }
 }
