@@ -1,10 +1,17 @@
-# Unity AI JOINCIC 2016
+# Unity AI JuegosIndies 2016
 
-This is the repository of the code shown in the workshop presented on Jun 3rd 2015 at the conference JOINCIC 2016 at Universidad Católica Andrés Bello, in Caracas - Venezuela.
+This is the repository of the code shown in the talk presented on Aug 31st 2016.
 
-The workshop was built upon teaching the basics of game development such as the game loop, a fast presentation on how to work with Unity and a couple of basic, yet functional, artificial intelligence algorithms.
+The workshop was built upon teaching the basics of basic, yet functional, artificial intelligence algorithms.
 
-For further information please visit http://joincic.com.ve/
+For further information please visit
+https://youtu.be/JAZuMY2KaBo
+
+Also, please join their community on
+http://comunidad.juegosindies.org
+https://www.facebook.com/juegosindies...
+https://www.facebook.com/groups/15059...
+https://twitter.com/juegos_indies
 
 
 ## -----------
